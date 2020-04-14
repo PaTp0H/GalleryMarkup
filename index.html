@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Gallery</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <a href="#" class="logo">
+                <img src="img/logo.png" alt="Deluxcode">
+                <h5>Deluxcode</h5>
+            </a>
+            <div class="menu">
+                <span class="menu__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30"
+                        height="32" viewBox="0 0 30 32">
+                        <image id="zoom-2_90835" width="30" height="32"
+                            xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAgCAYAAAAFQMh/AAACSUlEQVRIib2VO4tTQRSAv2SjIoJisSCrnRghIKbQygVxUawEsfAHBBsJQlzQxh8gNpImbewsFMRiLVQQBcVChehCwIiwID5Ai0Ww8JE7MvFcnWQed+7Nrh+EhDlzz3fPmUdKBOi0u65gST6q2WooKxqJV+yRWjRbDWssBqc4VppSRG6JXdLJxDFzsihnxJ0JXWN5CYpDglAshqB4PRkTu9ZuvRgTr8XaxRJsdagDoVgMQbFP4BrLi3WOiyQuskTOiiMT6Zcur+mVmZJV+TSb0SnOEI7+maaVj4kNYZq8dG7xzLxS6oJS6jCwFfgALAGXO+3uSlH53zXutLtaVgFmjGouJklyA7gD7JH5+gW+AM+brcZRK2OeikW6CRgCP0V6CrgKHALeW0/CEeAmcABYsaIZzEh7NwIJ8It/rbsNnAV6nhRatg04Lq3PRUWqHsqaKpHqtm4B7mckuwY8skYjqMiUIeObZBfwNvR4rVqnP+jpOXP6t8F3YIPvxAjL5fRoTOzMr8CsNd1mVuamlGQDhqQjKtbIH14CO4C9wGsrCrpa/XUSeGhIiXnh/qC3GrosLgEPpG0udgIfgXlHLBPnXS08kyNzVyo3OQY8AdrAY+vJCHytXgCuy1E5CDwFPgGfgd3AN2CxVq3fkhYnVoYwyy6xlurb6rS0+h5wBdgv5/Yd8MbYyZutDAUqnpSm6IvlhTlRb65ata6r/QFstzIH0JvLFPukXvqDnpKXWvXN8WFurhN5pNNiVnw+T65atf4K2FfQP7q5/j/Ab9D+pgd5HIi2AAAAAElFTkSuQmCC" />
+                    </svg>
+                </span>
+                <div class="menu__box-container">
+                    <div class="menu__box-wrapper">
+                        <div class="menu__box-header">
+                            <h2>Gallery list</h2>
+                            <div class="menu__box-close">
+                                <span class="menu__box-line"></span>
+                                <span class="menu__box-line"></span>
+                            </div>
+                            <div class="menu__box-search-container">
+                                <form action="#" class="menu__box-search menu__box-column">
+                                    <input type="search" class="menu__search" placeholder="Search">
+                                    <button class="menu__btn" type="submit">
+                                        <svg class="svg--search" width="19px" height="18px" viewBox="0 0 19 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g transform="translate(1.000000, 1.000000)" stroke="#FFFFFF" stroke-width="2" fill="none" fill-rule="evenodd">
+                                              <ellipse id="Oval-2" cx="5.95" cy="5.74122807" rx="5.95" ry="5.74122807"></ellipse>
+                                              <path d="M11.05,9.84210526 L17,15.5833333" id="Path-2"></path>
+                                            </g>
+                                          </svg>
+                                          <svg class="svg--close" width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g transform="translate(2.000000, 2.000000)" stroke="#000000" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="square">
+                                              <path d="M0,-2.04281037e-14 L10,10"></path>
+                                              <path d="M0,-5.5067062e-14 L10,10" transform="translate(5.000000, 5.000000) scale(1, -1) translate(-5.000000, -5.000000)"></path>
+                                            </g>
+                                          </svg>
+                                    </button>
+                                </form>
+                                <div class="menu__search-popular menu__box-column">
+                                    <div class="menu__search-popular-item">Laravel</div>
+                                    <div class="menu__search-popular-item">Angular</div>
+                                    <div class="menu__search-popular-item">VUE</div>
+                                    <div class="menu__search-popular-item">WordPress</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu__box-category-list">
+                            <div class="menu__box-category">
+                                <div class="menu__box-category-name menu__box-column">
+                                    <span class="menu__box-category-tagline">UI/UX</span>
+                                </div>
+                                <div class="menu__box-category-items menu__box-column">
+                                    <span class="menu__box-category-tagline"></span>
+                                    <div class="menu__box-category-item">Titanum12</div>
+                                    <div class="menu__box-category-item">Titanum12</div>
+                                    <div class="menu__box-category-item">Titanum12</div>
+                                    <div class="menu__box-category-item">Titanum12</div>
+                                    <div class="menu__box-category-item">Titanum12</div>
+                                </div>
+                            </div>
+                            <div class="menu__box-category">
+                                <div class="menu__box-category-name menu__box-column">
+                                    <span class="menu__box-category-tagline">UI/UX</span>
+                                </div>
+                                <div class="menu__box-category-items menu__box-column">
+                                    <span class="menu__box-category-tagline"></span>
+                                    <div class="menu__box-category-item">Titanum12</div>
+                                    <div class="menu__box-category-item">Titanum12</div>
+                                    <div class="menu__box-category-item">Titanum12</div>
+                                    <div class="menu__box-category-item">Titanum12</div>
+                                    <div class="menu__box-category-item">Titanum12</div>
+                                </div>
+                            </div>
+                            <div class="menu__box-category">
+                                <div class="menu__box-category-name menu__box-column">
+                                    <span class="menu__box-category-tagline">UI/UX</span>
+                                </div>
+                                <div class="menu__box-category-items menu__box-column">
+                                    <span class="menu__box-category-tagline"></span>
+                                    <div class="menu__box-category-item">Titanum12</div>
+                                    <div class="menu__box-category-item">Titanum12</div>
+                                    <div class="menu__box-category-item">Titanum12</div>
+                                    <div class="menu__box-category-item">Titanum12</div>
+                                    <div class="menu__box-category-item">Titanum12</div>
+                                </div>
+                            </div>
+                            <div class="menu__box-category">
+                                <div class="menu__box-category-name menu__box-column">
+                                    <span class="menu__box-category-tagline">UI/UX</span>
+                                </div>
+                                <div class="menu__box-category-items menu__box-column">
+                                    <span class="menu__box-category-tagline"></span>
+                                    <div class="menu__box-category-item">Titanum12</div>
+                                    <div class="menu__box-category-item">Titanum12</div>
+                                    <div class="menu__box-category-item">Titanum12</div>
+                                    <div class="menu__box-category-item">Titanum12</div>
+                                    <div class="menu__box-category-item">Titanum12</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="home-rows">
+            <div class="home-row swiper-container">
+                <div class="home-row__image-containers swiper-wrapper">
+                    <div class="home-row-item home-row__description swiper-slide">
+                        <div class="home-row__label">UI&UX</div>
+                        <div class="home-row__tagline">
+                            <span class="home-row__tagline-count">22</span>
+                            <span class="home-row__tagline-name">works</span>
+                        </div>
+                    </div>
+                    <div class="home-row-item swiper-slide">
+                        <div class="home-row-item__image-container">
+                            <div class="home-row-item__icon-bubble">
+                                <div class="home-row-item__icon-number">13</div>
+                            </div>
+                            <img src="img/Layer_1.png" alt="">
+                        </div>
+                        <div class="home-row-item__name">Titanem12</div>
+                    </div>
+                    <div class="home-row-item swiper-slide">
+                        <div class="home-row-item__image-container">
+                            <div class="home-row-item__icon-bubble">
+                                <div class="home-row-item__icon-number">13</div>
+                            </div>
+                            <img src="img/Layer_2.png" alt="">
+                        </div>
+                        <div class="home-row-item__name">Titanem12</div>
+                    </div>
+                    <div class="home-row-item swiper-slide">
+                        <div class="home-row-item__image-container">
+                            <div class="home-row-item__icon-bubble">
+                                <div class="home-row-item__icon-number">13</div>
+                            </div>
+                            <img src="img/Layer_3.png" alt="">
+                        </div>
+                        <div class="home-row-item__name">Titanem12</div>
+                    </div>
+                    <div class="home-row-item swiper-slide">
+                        <div class="home-row-item__image-container">
+                            <div class="home-row-item__icon-bubble">
+                                <div class="home-row-item__icon-number">13</div>
+                            </div>
+                            <img src="img/Layer_4.png" alt="">
+                        </div>
+                        <div class="home-row-item__name">Titanem12</div>
+                    </div>
+                    <div class="home-row-item swiper-slide">
+                        <div class="home-row-item__image-container">
+                            <div class="home-row-item__icon-bubble">
+                                <div class="home-row-item__icon-number">13</div>
+                            </div>
+                            <img src="img/Layer_5.png" alt="">
+                        </div>
+                        <div class="home-row-item__name">Titanem12</div>
+                    </div>
+                    <div class="home-row-item swiper-slide">
+                        <div class="home-row-item__image-container">
+                            <div class="home-row-item__icon-bubble">
+                                <div class="home-row-item__icon-number">13</div>
+                            </div>
+                            <img src="img/Layer_6.png" alt="">
+                        </div>
+                        <div class="home-row-item__name">Titanem12</div>
+                    </div>
+                    <div class="home-row-item swiper-slide">
+                        <div class="home-row-item__image-container">
+                            <div class="home-row-item__icon-bubble">
+                                <div class="home-row-item__icon-number">13</div>
+                            </div>
+                            <img src="img/Layer_1.png" alt="">
+                        </div>
+                        <div class="home-row-item__name">Titanem12</div>
+                    </div>
+                    <div class="home-row-item swiper-slide">
+                        <div class="home-row-item__image-container">
+                            <div class="home-row-item__icon-bubble">
+                                <div class="home-row-item__icon-number">13</div>
+                            </div>
+                            <img src="img/Layer_2.png" alt="">
+                        </div>
+                        <div class="home-row-item__name">Titanem12</div>
+                    </div>
+                    <div class="home-row-item swiper-slide">
+                        <div class="home-row-item__image-container">
+                            <div class="home-row-item__icon-bubble">
+                                <div class="home-row-item__icon-number">13</div>
+                            </div>
+                            <img src="img/Layer_3.png" alt="">
+                        </div>
+                        <div class="home-row-item__name">Titanem12</div>
+                    </div>
+                    <div class="home-row-item swiper-slide">
+                        <div class="home-row-item__image-container">
+                            <div class="home-row-item__icon-bubble">
+                                <div class="home-row-item__icon-number">13</div>
+                            </div>
+                            <img src="img/Layer_4.png" alt="">
+                        </div>
+                        <div class="home-row-item__name">Titanem12</div>
+                    </div>
+                    <div class="home-row-item swiper-slide">
+                        <div class="home-row-item__image-container">
+                            <div class="home-row-item__icon-bubble">
+                                <div class="home-row-item__icon-number">13</div>
+                            </div>
+                            <img src="img/Layer_5.png" alt="">
+                        </div>
+                        <div class="home-row-item__name">Titanem12</div>
+                    </div>
+                    <div class="home-row-item swiper-slide">
+                        <div class="home-row-item__image-container">
+                            <div class="home-row-item__icon-bubble">
+                                <div class="home-row-item__icon-number">13</div>
+                            </div>
+                            <img src="img/Layer_6.png" alt="">
+                        </div>
+                        <div class="home-row-item__name">Titanem12</div>
+                    </div>
+                </div>
+                <div class="home-row__arrow-button home-row__arrow-button--left" id="leftArrow">
+                    <div class="home-row__arrow-icon"></div>
+                </div>
+                <div class="home-row__arrow-button home-row__arrow-button--right show" id="rightArrow">
+                    <div class="home-row__arrow-icon"></div>
+                </div>
+                <div class="home-row__progress-bar" style="width: 0%;"></div>
+            </div>
+            <div class="home-row swiper-container">
+                <div class="home-row__image-containers swiper-wrapper">
+                    <div class="home-row-item home-row__description swiper-slide">
+                        <div class="home-row__label">Front</div>
+                        <div class="home-row__tagline">
+                            <span class="home-row__tagline-count">22</span>
+                            <span class="home-row__tagline-name">works</span>
+                        </div>
+                    </div>
+                    <div class="home-row-item swiper-slide">
+                        <div class="home-row-item__image-container">
+                            <div class="home-row-item__icon-bubble">
+                                <div class="home-row-item__icon-number">13</div>
+                            </div>
+                            <img src="img/Layer_1.png" alt="">
+                        </div>
+                        <div class="home-row-item__name">Titanem12</div>
+                    </div>
+                    <div class="home-row-item swiper-slide">
+                        <div class="home-row-item__image-container">
+                            <div class="home-row-item__icon-bubble">
+                                <div class="home-row-item__icon-number">13</div>
+                            </div>
+                            <img src="img/Layer_2.png" alt="">
+                        </div>
+                        <div class="home-row-item__name">Titanem12</div>
+                    </div>
+                    <div class="home-row-item swiper-slide">
+                        <div class="home-row-item__image-container">
+                            <div class="home-row-item__icon-bubble">
+                                <div class="home-row-item__icon-number">13</div>
+                            </div>
+                            <img src="img/Layer_3.png" alt="">
+                        </div>
+                        <div class="home-row-item__name">Titanem12</div>
+                    </div>
+                    <div class="home-row-item swiper-slide">
+                        <div class="home-row-item__image-container">
+                            <div class="home-row-item__icon-bubble">
+                                <div class="home-row-item__icon-number">13</div>
+                            </div>
+                            <img src="img/Layer_4.png" alt="">
+                        </div>
+                        <div class="home-row-item__name">Titanem12</div>
+                    </div>
+                    <div class="home-row-item swiper-slide">
+                        <div class="home-row-item__image-container">
+                            <div class="home-row-item__icon-bubble">
+                                <div class="home-row-item__icon-number">13</div>
+                            </div>
+                            <img src="img/Layer_5.png" alt="">
+                        </div>
+                        <div class="home-row-item__name">Titanem12</div>
+                    </div>
+                    <div class="home-row-item swiper-slide">
+                        <div class="home-row-item__image-container">
+                            <div class="home-row-item__icon-bubble">
+                                <div class="home-row-item__icon-number">13</div>
+                            </div>
+                            <img src="img/Layer_6.png" alt="">
+                        </div>
+                        <div class="home-row-item__name">Titanem12</div>
+                    </div>
+                    <div class="home-row-item swiper-slide">
+                        <div class="home-row-item__image-container">
+                            <div class="home-row-item__icon-bubble">
+                                <div class="home-row-item__icon-number">13</div>
+                            </div>
+                            <img src="img/Layer_1.png" alt="">
+                        </div>
+                        <div class="home-row-item__name">Titanem12</div>
+                    </div>
+                    <div class="home-row-item swiper-slide">
+                        <div class="home-row-item__image-container">
+                            <div class="home-row-item__icon-bubble">
+                                <div class="home-row-item__icon-number">13</div>
+                            </div>
+                            <img src="img/Layer_2.png" alt="">
+                        </div>
+                        <div class="home-row-item__name">Titanem12</div>
+                    </div>
+                    <div class="home-row-item swiper-slide">
+                        <div class="home-row-item__image-container">
+                            <div class="home-row-item__icon-bubble">
+                                <div class="home-row-item__icon-number">13</div>
+                            </div>
+                            <img src="img/Layer_3.png" alt="">
+                        </div>
+                        <div class="home-row-item__name">Titanem12</div>
+                    </div>
+                    <div class="home-row-item swiper-slide">
+                        <div class="home-row-item__image-container">
+                            <div class="home-row-item__icon-bubble">
+                                <div class="home-row-item__icon-number">13</div>
+                            </div>
+                            <img src="img/Layer_4.png" alt="">
+                        </div>
+                        <div class="home-row-item__name">Titanem12</div>
+                    </div>
+                    <div class="home-row-item swiper-slide">
+                        <div class="home-row-item__image-container">
+                            <div class="home-row-item__icon-bubble">
+                                <div class="home-row-item__icon-number">13</div>
+                            </div>
+                            <img src="img/Layer_5.png" alt="">
+                        </div>
+                        <div class="home-row-item__name">Titanem12</div>
+                    </div>
+                    <div class="home-row-item swiper-slide">
+                        <div class="home-row-item__image-container">
+                            <div class="home-row-item__icon-bubble">
+                                <div class="home-row-item__icon-number">13</div>
+                            </div>
+                            <img src="img/Layer_6.png" alt="">
+                        </div>
+                        <div class="home-row-item__name">Titanem12</div>
+                    </div>
+                </div>
+                <div class="home-row__arrow-button home-row__arrow-button--left" id="leftArrow">
+                    <div class="home-row__arrow-icon"></div>
+                </div>
+                <div class="home-row__arrow-button home-row__arrow-button--right show" id="rightArrow">
+                    <div class="home-row__arrow-icon"></div>
+                </div>
+                <div class="home-row__progress-bar" style="width: 0%;"></div>
+            </div>
+            <div class="home-row swiper-container">
+                <div class="home-row__image-containers swiper-wrapper">
+                    <div class="home-row-item home-row__description swiper-slide">
+                        <div class="home-row__label">Back</div>
+                        <div class="home-row__tagline">
+                            <span class="home-row__tagline-count">22</span>
+                            <span class="home-row__tagline-name">works</span>
+                        </div>
+                    </div>
+                    <div class="home-row-item swiper-slide">
+                        <div class="home-row-item__image-container">
+                            <div class="home-row-item__icon-bubble">
+                                <div class="home-row-item__icon-number">13</div>
+                            </div>
+                            <img src="img/Layer_1.png" alt="">
+                        </div>
+                        <div class="home-row-item__name">Titanem12</div>
+                    </div>
+                    <div class="home-row-item swiper-slide">
+                        <div class="home-row-item__image-container">
+                            <div class="home-row-item__icon-bubble">
+                                <div class="home-row-item__icon-number">13</div>
+                            </div>
+                            <img src="img/Layer_2.png" alt="">
+                        </div>
+                        <div class="home-row-item__name">Titanem12</div>
+                    </div>
+                    <div class="home-row-item swiper-slide">
+                        <div class="home-row-item__image-container">
+                            <div class="home-row-item__icon-bubble">
+                                <div class="home-row-item__icon-number">13</div>
+                            </div>
+                            <img src="img/Layer_3.png" alt="">
+                        </div>
+                        <div class="home-row-item__name">Titanem12</div>
+                    </div>
+                    <div class="home-row-item swiper-slide">
+                        <div class="home-row-item__image-container">
+                            <div class="home-row-item__icon-bubble">
+                                <div class="home-row-item__icon-number">13</div>
+                            </div>
+                            <img src="img/Layer_4.png" alt="">
+                        </div>
+                        <div class="home-row-item__name">Titanem12</div>
+                    </div>
+                    <div class="home-row-item swiper-slide">
+                        <div class="home-row-item__image-container">
+                            <div class="home-row-item__icon-bubble">
+                                <div class="home-row-item__icon-number">13</div>
+                            </div>
+                            <img src="img/Layer_5.png" alt="">
+                        </div>
+                        <div class="home-row-item__name">Titanem12</div>
+                    </div>
+                    <div class="home-row-item swiper-slide">
+                        <div class="home-row-item__image-container">
+                            <div class="home-row-item__icon-bubble">
+                                <div class="home-row-item__icon-number">13</div>
+                            </div>
+                            <img src="img/Layer_6.png" alt="">
+                        </div>
+                        <div class="home-row-item__name">Titanem12</div>
+                    </div>
+                    <div class="home-row-item swiper-slide">
+                        <div class="home-row-item__image-container">
+                            <div class="home-row-item__icon-bubble">
+                                <div class="home-row-item__icon-number">13</div>
+                            </div>
+                            <img src="img/Layer_1.png" alt="">
+                        </div>
+                        <div class="home-row-item__name">Titanem12</div>
+                    </div>
+                    <div class="home-row-item swiper-slide">
+                        <div class="home-row-item__image-container">
+                            <div class="home-row-item__icon-bubble">
+                                <div class="home-row-item__icon-number">13</div>
+                            </div>
+                            <img src="img/Layer_2.png" alt="">
+                        </div>
+                        <div class="home-row-item__name">Titanem12</div>
+                    </div>
+                    <div class="home-row-item swiper-slide">
+                        <div class="home-row-item__image-container">
+                            <div class="home-row-item__icon-bubble">
+                                <div class="home-row-item__icon-number">13</div>
+                            </div>
+                            <img src="img/Layer_3.png" alt="">
+                        </div>
+                        <div class="home-row-item__name">Titanem12</div>
+                    </div>
+                    <div class="home-row-item swiper-slide">
+                        <div class="home-row-item__image-container">
+                            <div class="home-row-item__icon-bubble">
+                                <div class="home-row-item__icon-number">13</div>
+                            </div>
+                            <img src="img/Layer_4.png" alt="">
+                        </div>
+                        <div class="home-row-item__name">Titanem12</div>
+                    </div>
+                    <div class="home-row-item swiper-slide">
+                        <div class="home-row-item__image-container">
+                            <div class="home-row-item__icon-bubble">
+                                <div class="home-row-item__icon-number">13</div>
+                            </div>
+                            <img src="img/Layer_5.png" alt="">
+                        </div>
+                        <div class="home-row-item__name">Titanem12</div>
+                    </div>
+                    <div class="home-row-item swiper-slide">
+                        <div class="home-row-item__image-container">
+                            <div class="home-row-item__icon-bubble">
+                                <div class="home-row-item__icon-number">13</div>
+                            </div>
+                            <img src="img/Layer_6.png" alt="">
+                        </div>
+                        <div class="home-row-item__name">Titanem12</div>
+                    </div>
+                </div>
+                <div class="home-row__arrow-button home-row__arrow-button--left" id="leftArrow">
+                    <div class="home-row__arrow-icon"></div>
+                </div>
+                <div class="home-row__arrow-button home-row__arrow-button--right show" id="rightArrow">
+                    <div class="home-row__arrow-icon"></div>
+                </div>
+                <div class="home-row__progress-bar" style="width: 0%;"></div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__box">
+            <a href="" class="logo">
+                <img src="img/logo.png" alt="">
+            </a>
+            <p class="footer__description">
+                For 11 years, the Body Issue has showcased the world's greatest athletes -- the muscles, skin, features and scars that make them who they are. What we've learned: Every body has a story.
+            </p>
+            <form action="#" class="footer__form">
+                <input type="search" class="footer__search" placeholder="Search">
+                <button class="search__btn" type="submit">
+                    <svg class="svg--search" width="19px" height="18px" viewBox="0 0 19 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g transform="translate(1.000000, 1.000000)" stroke="#FFFFFF" stroke-width="2" fill="none" fill-rule="evenodd">
+                          <ellipse id="Oval-2" cx="5.95" cy="5.74122807" rx="5.95" ry="5.74122807"></ellipse>
+                          <path d="M11.05,9.84210526 L17,15.5833333" id="Path-2"></path>
+                        </g>
+                      </svg>
+                      <svg class="svg--close" width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g transform="translate(2.000000, 2.000000)" stroke="#000000" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="square">
+                          <path d="M0,-2.04281037e-14 L10,10"></path>
+                          <path d="M0,-5.5067062e-14 L10,10" transform="translate(5.000000, 5.000000) scale(1, -1) translate(-5.000000, -5.000000)"></path>
+                        </g>
+                      </svg>
+                </button>
+            </form>
+        </div>
+    </footer>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
